@@ -1,0 +1,2065 @@
+
+cat list1
+|
+v
+
+A=10031; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10238; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10242; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10277; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10344; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10363; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10392; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10505; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10705; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10815; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10834; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10869; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10875; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10887; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=10996; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11052; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11099; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11201; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11297; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11456; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11465; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11764; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11786; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=11971; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=12025; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=12420; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=12464; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=12528; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=12726; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=13027; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=13157; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=13285; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+185990
+A=13429; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=13588; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=13728; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=13733; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=13760; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=13879; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14057; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14163; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14237; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14288; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14434; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14452; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14572; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14615; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14625; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14671; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14682; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14730; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=14890; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15015; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15046; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+120368
+A=15171; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15185; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15255; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15307; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15434; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15760; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15814; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15918; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=15963; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16012; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16170; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16233; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16331; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16427; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16429; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16440; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16566; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16632; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16708; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16747; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16823; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=16983; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17044; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17074; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17308; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17329; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17370; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17409; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17479; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17578; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17821; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=17832; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18016; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18052; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18103; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18113; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18129; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18166; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18176; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18197; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18216; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18224; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18339; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18381; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18442; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18619; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18639; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18652; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18698; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18797; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18803; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18890; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=18980; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19013; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19065; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19106; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19137; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19158; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19397; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19543; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19704; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19749; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19808; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19956; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=19996; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20073; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20154; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20160; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20162; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20317; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+81268
+A=20346; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+203460
+A=20411; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20458; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20517; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20594; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20727; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20834; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=20851; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21093; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21173; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21175; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21183; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21373; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21713; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21827; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21853; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21920; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21939; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=21948; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22075; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22114; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22130; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+154910
+A=22150; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22179; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22201; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22364; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+380188
+A=22417; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22425; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22462; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22499; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22523; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22568; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22611; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22863; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=22894; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=23105; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=23123; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=23745; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=23784; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=23792; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+404464
+A=23797; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=23813; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=23951; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24020; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24144; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24194; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+217746
+A=24320; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24390; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24411; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24511; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24516; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24581; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24780; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=24795; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25018; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25093; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25158; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25193; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25204; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25385; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25386; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25528; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25669; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25806; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=25897; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26002; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26081; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26264; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26294; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26336; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26559; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26678; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26776; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=26941; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27106; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27159; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27237; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27254; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27278; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27313; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27419; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27432; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27458; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27551; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27581; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27816; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+166896
+A=27860; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27861; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=27975; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28001; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28056; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28130; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28271; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28395; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28431; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28509; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28645; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28737; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28775; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+143875
+A=28796; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=28900; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+289000
+A=29106; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29122; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29208; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29216; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29258; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29405; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+470480
+A=29472; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29539; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29580; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29590; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29781; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29829; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=29890; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30160; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30330; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30463; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30706; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30802; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30877; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30881; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30928; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30968; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30989; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=30993; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31017; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31172; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31258; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+343838
+A=31291; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31384; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31427; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31428; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31692; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31800; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31801; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31950; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=31956; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32017; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32219; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32245; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32272; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32314; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32323; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32411; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32536; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32606; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32676; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32770; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32775; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=32839; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=33094; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=33287; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=33424; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=33426; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=33471; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=33559; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=33670; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=33687; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=34245; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=34338; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=34433; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=34456; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=34547; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=34871; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+662549
+A=34990; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=35513; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=35640; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=35658; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=35661; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+320949
+A=35813; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+429756
+A=35814; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=35921; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=35949; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36002; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36007; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36114; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36125; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36204; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36223; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36232; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36267; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36275; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36489; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36567; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36571; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36587; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36612; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36646; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36675; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36736; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36889; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36907; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36937; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36951; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=36998; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=37092; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=37097; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=37160; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=37301; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=37438; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=37510; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=37622; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=37936; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=38068; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=38149; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=38185; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=38402; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=38511; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=38756; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=38834; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=38878; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39137; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39202; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39241; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39257; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39267; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39293; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39310; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39320; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39381; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39433; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39647; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39756; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39815; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39850; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39886; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39890; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39892; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39901; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+798020
+A=39912; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39953; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=39964; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40142; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40158; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40376; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+726768
+A=40518; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40577; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40655; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40696; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40711; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40767; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40872; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=40961; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41096; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41146; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41191; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41231; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41284; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41290; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41410; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41554; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41569; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41680; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41779; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41809; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41888; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=41926; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42193; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42240; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42278; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42339; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42622; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42681; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42702; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42781; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42782; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=42794; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43176; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43183; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43217; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43323; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43467; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43760; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43869; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43972; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43973; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=43991; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=44100; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=44300; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=44397; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=44590; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=44593; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=44809; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=44849; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45097; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45348; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45424; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45493; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45672; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45685; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45699; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45736; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45790; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45822; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45897; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=45998; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46028; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46148; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46176; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46236; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46382; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46454; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46568; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46647; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46727; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46734; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46814; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46822; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46903; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=46987; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=47074; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=47215; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=47286; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=47365; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=47380; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=47520; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=47642; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=47746; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48209; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48375; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48481; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48555; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48564; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48579; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48723; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48773; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48905; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48925; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=48981; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49018; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49035; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49060; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49114; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49217; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49380; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49570; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49609; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49624; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49675; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=49736; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50039; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50087; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+200348
+A=50184; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50329; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50399; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50509; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50548; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50553; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50620; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50625; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=50816; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51192; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51240; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51431; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51440; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51468; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+926424
+A=51604; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51627; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51652; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51662; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51693; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51694; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51892; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=51911; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52067; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52087; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52184; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52302; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52356; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52387; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52462; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52703; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52748; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52752; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52780; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52865; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=52971; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=53098; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=53280; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=53326; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=53331; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=53393; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54026; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54047; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54054; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54092; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54222; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54224; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54255; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+162765
+A=54527; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54579; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54658; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54690; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54727; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54850; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54944; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54946; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=54999; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=55026; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=55237; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=55307; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=55644; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=55767; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=55768; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=55973; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56018; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56087; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56299; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56351; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56516; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56574; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56739; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56817; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56819; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56882; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=56899; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=57181; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=57290; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=57887; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=58189; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=58395; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=58569; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=58709; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=58920; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=58946; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59162; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59165; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59178; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59294; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59344; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59380; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59384; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59402; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59784; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59842; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=59894; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60032; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60156; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60314; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60434; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60548; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60903; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60917; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60930; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=60953; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61046; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+61046
+A=61080; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61094; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+488752
+A=61190; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61256; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+673816
+A=61330; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61344; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61413; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61525; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61634; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61734; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+740808
+A=61957; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=61979; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62052; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+620520
+A=62068; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62198; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62248; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62250; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62256; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62392; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62427; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62433; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62453; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62589; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62607; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=62690; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+1191110
+A=62705; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+188115
+A=63119; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63138; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63234; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63258; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63281; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63301; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63337; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63402; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63500; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63642; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63721; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63915; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63938; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=63969; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64003; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64189; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64206; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64265; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64342; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64445; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64484; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64545; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64599; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64646; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64650; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64662; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64774; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=64887; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65053; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65070; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65381; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65394; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65462; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65504; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65691; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65731; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65790; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=65976; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=66007; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=66079; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+330395
+A=66177; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=66186; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=66278; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=66572; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+998580
+A=66784; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=66788; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+1001820
+A=66861; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=67074; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=67094; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=67129; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=67253; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=67382; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=67541; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=67572; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68103; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68116; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68130; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68234; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68302; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68314; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68342; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68345; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68437; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68538; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68541; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+959574
+A=68547; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68616; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68737; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=68767; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69091; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69139; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+898807
+A=69238; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69335; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69710; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69714; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69761; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69769; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69772; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69816; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=69846; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70012; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70069; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70287; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70340; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70388; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70424; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70609; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70657; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70846; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=70905; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71075; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71086; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71158; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71203; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71227; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71340; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71388; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71411; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71465; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71616; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71622; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71638; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71898; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=71933; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72024; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72027; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72169; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72282; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72285; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72525; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72531; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72742; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72799; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=72821; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73049; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73085; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73311; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73445; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73523; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73634; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73717; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73943; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=73972; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74192; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74316; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74371; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74379; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74477; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74592; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74774; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74790; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74842; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74931; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=74982; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75031; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75279; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75320; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75423; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75577; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75715; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75844; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75858; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75931; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=75944; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76105; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76119; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76266; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76286; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76327; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76422; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76499; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76528; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76591; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76734; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=76944; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=77064; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=77232; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=77300; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=77374; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=77446; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+1239136
+A=77550; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=77615; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=77726; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=77727; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78208; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78293; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78304; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78335; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78554; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78631; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+1336727
+A=78679; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78726; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78728; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=78821; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79066; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79221; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79229; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79434; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79443; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79474; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79522; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79670; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79717; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79903; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=79922; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80007; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80197; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80392; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80487; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80548; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80699; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80912; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80935; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=80990; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81005; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81066; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81328; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81599; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81607; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81714; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81763; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81823; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=81848; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82002; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82122; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+574854
+A=82252; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82320; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82411; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82512; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+577584
+A=82546; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82667; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82819; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82889; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=82974; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83121; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83143; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83257; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83414; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83422; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83429; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83468; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83606; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83718; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83720; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83780; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83795; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+754155
+A=83807; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+335228
+A=83871; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=83928; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=84071; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=84089; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=84224; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=84273; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=84341; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=84749; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=84965; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=84982; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85029; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85314; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85348; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85351; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85410; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85547; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85582; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85592; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85669; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85677; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85734; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=85983; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86033; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86138; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86174; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86179; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86233; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86286; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86346; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86385; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86480; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86510; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86583; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86616; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86715; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86750; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86827; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86911; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86928; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=86974; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+1130662
+A=87043; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=87086; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=87114; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=87211; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=87281; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=87290; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=87787; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=87844; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88035; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88066; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88128; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+88128
+A=88270; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88656; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88694; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88849; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88888; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88977; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88985; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=88990; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=89012; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=89148; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=89469; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=89572; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=89746; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=89837; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=89900; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=90084; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=90210; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=90246; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=90359; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=90402; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=90511; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=90670; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=90831; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91003; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91030; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91043; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91094; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91211; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91250; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91305; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91522; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91564; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91581; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91716; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91804; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+183608
+A=91842; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91855; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91891; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91989; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=91993; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92026; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92030; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92080; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92093; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92213; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92219; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92327; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92334; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92342; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92511; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=92588; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93030; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93185; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93293; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93384; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93403; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93416; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93597; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93602; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93712; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=93857; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=94075; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=94262; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=94438; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=94686; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=94778; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=94812; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=94820; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=94844; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95099; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95290; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95422; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95478; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95585; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95602; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95659; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95676; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95772; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95791; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+478955
+A=95945; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=95998; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96002; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96077; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96305; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96359; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96368; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96530; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96608; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96645; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96772; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96949; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=96953; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97037; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97113; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97188; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97195; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97216; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97244; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97347; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97523; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97526; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97584; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97604; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97731; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97770; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97900; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97919; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=97975; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=98256; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=98329; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=98374; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+1869106
+A=98428; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=98578; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=98814; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=98905; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=98916; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+1978320
+A=99081; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99216; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99221; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99272; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99320; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99366; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99371; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99510; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99562; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+A=99603; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+1294839
+A=99854; cat list2 | grep -e $A | wc -l | awk -v A=$A '{print $1,"*",A}' | bc
+0
+
+#:g/A=/d
+|
+v
+#:g/^0$/d
+|
+v
+
+185990
+120368
+81268
+203460
+154910
+380188
+404464
+217746
+166896
+143875
+289000
+470480
+343838
+662549
+320949
+429756
+798020
+726768
+200348
+926424
+162765
+61046
+488752
+673816
+740808
+620520
+1191110
+188115
+330395
+998580
+1001820
+959574
+898807
+1239136
+1336727
+574854
+577584
+754155
+335228
+1130662
+88128
+183608
+478955
+1869106
+1978320
+1294839
+
+#:'<,'>!awk '{x+=$1} END {print x}'
+|
+v
+
+27384707

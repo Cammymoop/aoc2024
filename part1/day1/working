@@ -1,0 +1,56 @@
+nnoremap R :.!bash -v<CR><Esc>
+
+
+wc -l input
+1000 input
+
+tail -n 4 input
+51892   88913
+56351   49034
+39241   85194
+43972   20620
+
+cat input | sort -g | head -n 3
+10031   73014
+10238   98916
+10242   66300
+
+cat input | sort -g > input_s1
+RAN
+
+cat input_s1 | awk '{print $1}' > list1
+RAN
+cat input | awk '{print $2}' | sort -g > list2
+RAN
+
+#Interleave!
+paste -d' ' list1 list2 | head -n 3
+10031 10088
+10238 10650
+10242 10753
+
+paste -d' ' list1 list2 > sorted
+RAN
+
+cat sorted | awk '{print $1, "-", $2}' | head -n 3
+10031 - 10088
+10238 - 10650
+10242 - 10753
+
+cat sorted | awk '{print $1, "-", $2}' | bc | head -n 3
+-57
+-412
+-511
+
+cat sorted | awk '{print $1, "-", $2}' | bc | sed -e 's/-//' | head -n 3
+57
+412
+511
+
+cat sorted | awk '{print $1, "-", $2}' | bc | sed -e 's/-//' > diffs
+RAN
+
+awk '{s+=$1} END {print s}' diffs
+1341714
+
+
