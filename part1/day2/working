@@ -1,0 +1,35 @@
+
+cat input | head -n1 
+22 25 27 28 30 31 32 29
+
+cat input | head -n1 | tr ' ' '\n' | interval
+3
+2
+1
+2
+1
+1
+-3
+
+# -k     (keep order of outputing jobs)
+# --pipe (send stdin to each job)
+# --tee  (send ALL stdin to each job)
+# produces the biggest positive interval, biggest negative interval, and 0 if there is a 0 else 1
+cat input | head -n1           | tr ' ' '\n' | interval | parallel -k --pipe --tee ::: "bound" "bound -l" "grep -x -m 1 0 || echo 1" | tr '\n' ' '
+3 -3 1 
+
+# run for each input line
+cat input | parallel -k --pipe -N1 "tr ' ' '\n' | interval | parallel -k --pipe --tee ::: 'bound' 'bound -l' 'grep -x -m 1 0 || echo 1' | tr '\n' ' ' ; echo" > proc1
+RAN
+
+cat proc1 | head -n7 
+3 -3 1 
+3 0 0 
+4 1 1 
+5 2 1 
+3 -1 1 
+3 -3 1 
+3 -3 0 
+cat proc1 | awk '$3 ~ /0/ {next}; $1 > 3 || $2 < -3 || ($1 > 0 && $2 < 0) || ($1 < 0 && $2 > 0) {next}; {print "nice"}' | wc -l
+639
+GOLD STAR GET
