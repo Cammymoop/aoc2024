@@ -12,3 +12,50 @@ mul(13,834)
 cat input | grep -E -o 'mul\([0-9]{1,3},[0-9]{1,3}\)' | grep -E -o '[0-9]+,[0-9]+' | tr ',' '*' | bc | numsum
 184122457
 GOLD STAR GET
+
+That was easy, part 2 looks simple as well
+
+# let's just remove the pesky newlines first
+cat input | { tr -d '\n' ; echo; } | wc -l
+1
+cat input | { tr -d '\n' ; echo; } > processed1
+
+cat processed1 | grep -o "don't()" | wc -l
+31
+
+# anything between a don't() and a do() should just vanish
+# but sed doesn't have an option for non-greedy, that's ok it can run on individual lines just replace don't() with \n
+cat processed1 | grep -o 'HAHAHA' | wc -l
+0
+cat processed1 | sed "s/don't()/\n/g; s/do()/HAHAHA/; s/.*HAHAHA//" > processed2
+
+#same command now from the first part
+cat processed2 | grep -E -o 'mul\([0-9]{1,3},[0-9]{1,3}\)' | grep -E -o '[0-9]+,[0-9]+' | tr ',' '*' | bc | numsum
+179262382
+TOO HIGH
+I guess the problem here is probably multiple donts in a row
+Also I applied the deletion to the first line too when I shouldnt have
+
+cat processed1 | sed "s/don't()/\n/g" | head -n1 | grep -o 'do()'
+do()
+#There is one do in the first line, I'll just get rid of that one haha, no general solution for you :D
+cat processed1 | sed "s/do()//" > processed3
+
+#now, if I use sed -z I can remove the newline after any line that has no do(), but I'll add a do() at the start so it isn't affected
+#wait no it's not simple to match a line that doesn't have do
+
+# AHA, I can actually just delete any lines with no do() as long as I add the one at the start
+cat processed1 | { echo "do()"; sed "s/don't()/\n/g"; } | grep 'do()' | sed 's/do()/HAHAHA/; s/.*HAHAHA//' > processed4
+
+cat processed4 | grep -E -o 'mul\([0-9]{1,3},[0-9]{1,3}\)' | grep -E -o '[0-9]+,[0-9]+' | tr ',' '*' | bc | numsum
+103002614
+LMAO TOO LOW
+
+cat processed1 | { echo "do()"; sed "s/don't()/\n/g"; } | grep 'do()'
+...
+# OH RIGHT, the do() I added had a newline after it lol
+cat processed1 | { echo "do()"; sed "s/don't()/\n/g"; } | sed -z 's/\n//' | grep 'do()' | sed 's/do()/HAHAHA/; s/.*HAHAHA//' > processed4
+
+cat processed4 | grep -E -o 'mul\([0-9]{1,3},[0-9]{1,3}\)' | grep -E -o '[0-9]+,[0-9]+' | tr ',' '*' | bc | numsum
+107862689
+GOLD STAR GET
