@@ -1,0 +1,14 @@
+# vim: ft=bash
+
+cat input | grep -E -o 'mul\([0-9]{1,3},[0-9]{1,3}\)' | wc -l
+701
+cat input | grep -E -o 'mul\([0-9]{1,3},[0-9]{1,3}\)' | tail -n5
+mul(675,236)
+mul(242,159)
+mul(532,562)
+mul(923,707)
+mul(13,834)
+
+cat input | grep -E -o 'mul\([0-9]{1,3},[0-9]{1,3}\)' | grep -E -o '[0-9]+,[0-9]+' | tr ',' '*' | bc | numsum
+184122457
+GOLD STAR GET
