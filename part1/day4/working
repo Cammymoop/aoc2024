@@ -1,0 +1,77 @@
+# vim: ft=bash
+
+wc -l input
+140 input
+cat input | head -n1 | wc -c | sed 's/$/-1/' | bc
+140
+
+
+cat input | head -n1 | sed -E 's/$/@/; s/([^@])/\1\n/g'
+
+
+#cat input | head -n1 | sed -E 's/$/@/; s/([^@])/\1\n/g' | paste -d '' accumulate - | sponge accumulate; cat accumulate | head -n4
+
+cat input | sed -E 's/$/@/; s/([^@])/\1\n/g' > linearized
+cat test_input | sed -E 's/$/@/; s/([^@])/\1\n/g' > linearized
+
+# transpose the characters: rows <-> columns
+echo "" > accumulate
+cat linearized | parallel -k --pipe --recend '@\n' -N1 --rrs -j1 'paste -d "" accumulate - | sponge accumulate; wc -l accumulate' | wc -l
+140
+
+cat accumulate > test_transposed
+cat accumulate > transposed
+#cat accumulate | head -n1 | wc -c | sed 's/$/-1/' | bc
+#140
+
+
+# DIAGONALS
+# generate a space staircase
+yes | head -n140 | awk '{l=l" ";print l}' | tac > staircase
+
+yes | head -n10 | awk '{l=l" ";print l}' | tac > test_staircase
+
+paste -d '' staircase input > wonky
+cat wonky | sed -E 's/$/@/; s/([^@])/\1\n/g' > wonky_linearized
+
+# transpose wonky to get the misaligned patterns (diagonals)
+echo "" > accumulate
+cat wonky_linearized | parallel -k --pipe --recend '@\n' -N1 --rrs -j1 'paste -d "" accumulate - | sponge accumulate; wc -l accumulate' | wc -l
+140
+cat accumulate > diag1
+
+# the other diagonal
+tac input | paste -d '' staircase - | sed -E 's/$/@/; s/([^@])/\1\n/g' > wonky2_lin
+echo "" > accumulate
+cat wonky2_lin | parallel -k --pipe --recend '@\n' -N1 --rrs -j1 'paste -d "" accumulate - | sponge accumulate; wc -l accumulate' | wc -l
+140
+
+cat accumulate > diag2
+
+paste -d '' test_staircase test_input | sed -E 's/$/@/; s/([^@])/\1\n/g' > wonky_test
+tac test_input | paste -d '' test_staircase - | sed -E 's/$/@/; s/([^@])/\1\n/g' > wonky_test2
+echo "" > accumulate
+cat wonky_test2 | parallel -k --pipe --recend '@\n' -N1 --rrs -j1 'paste -d "" accumulate - | sponge accumulate; wc -l accumulate' | wc -l
+10
+10
+
+cat accumulate > test_diag1
+cat accumulate > test_diag2
+
+cat test_input accumulate test_transposed test_diag1 test_diag2
+cat test_input test_transposed test_diag1 test_diag2 | grep -E -o 'XMAS|SAMX' | wc -l
+15
+# Ah, grep isn't finding overlapping matches in the same orientation. at least I think that's how regex works with multiple matches
+cat test_input test_transposed test_diag1 test_diag2 | parallel --pipe --tee ::: 'grep -E -o "XMAS"' 'grep -E -o "SAMX"' | wc -l
+18
+# test verified
+
+
+# Now we count!
+cat input transposed diag1 diag2 | grep -E -o 'XMAS|SAMX' | wc -l
+2312
+TOO LOW
+
+cat input transposed diag1 diag2 | parallel --pipe --tee ::: 'grep -E -o "XMAS"' 'grep -E -o "SAMX"' | wc -l
+2517
+GOLD STAR GET
