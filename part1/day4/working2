@@ -1,13 +1,10 @@
 # vim: ft=bash
 
 # linearize to a single line
-cat input | { tr -d '\n'; echo; } > x1
-cat transposed | { tr -d '\n'; echo; } > x2
-tac input | { tr -d '\n'; echo; } > x3
-tac transposed | { tr -d '\n'; echo; } > x4
+cat input | tac input | { tr -d '\n'; echo; } > x1
+cat transposed | tac transposed | { tr -d '\n'; echo; } > x2
 
-cat x1 | awk 'BEGIN{RS="";OFS="+"}/M/{print $1}'
+cat x1 | grep -bo 'M' | sed 's/:.*//' > scratch; cat scratch | interval | paste scratch - | awk '$2==2 && $1%140 < 139'
 
-cat x1 | grep -bo 'M' | sed 's/:.*//' | tee -p scratch | interval | paste scratch -
-
-cat x1 | grep -bo 'M' | sed 's/:.*//' > scratch; cat scratch | interval | paste scratch -
+# This sequence should find any 1, 1 intervals and update the first interval to a 2
+sed 's/11/F1/; s/1[1F]/FF/; s/F/2/'
