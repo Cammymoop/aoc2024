@@ -1,0 +1,13 @@
+# vim: ft=bash
+
+# linearize to a single line
+cat input | { tr -d '\n'; echo; } > x1
+cat transposed | { tr -d '\n'; echo; } > x2
+tac input | { tr -d '\n'; echo; } > x3
+tac transposed | { tr -d '\n'; echo; } > x4
+
+cat x1 | awk 'BEGIN{RS="";OFS="+"}/M/{print $1}'
+
+cat x1 | grep -bo 'M' | sed 's/:.*//' | tee -p scratch | interval | paste scratch -
+
+cat x1 | grep -bo 'M' | sed 's/:.*//' > scratch; cat scratch | interval | paste scratch -

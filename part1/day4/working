@@ -65,6 +65,7 @@ cat test_input test_transposed test_diag1 test_diag2 | grep -E -o 'XMAS|SAMX' | 
 cat test_input test_transposed test_diag1 test_diag2 | parallel --pipe --tee ::: 'grep -E -o "XMAS"' 'grep -E -o "SAMX"' | wc -l
 18
 # test verified
+rm test_*
 
 
 # Now we count!
