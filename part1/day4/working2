@@ -101,7 +101,7 @@ cat mas_pos_1 mas_pos_2 | wc -l
 1962
 # all aboard??
 # BRUH IT's NOT RIGHT? test input verified, this is just dumb
-
+# Accorging to brian's code I'm overcounting by 2, I'll check which ones later
 
 cat scratch2 | tail -n4
 39191	2

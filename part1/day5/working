@@ -1,0 +1,119 @@
+# vim: ft=bash
+
+# in .bash_vimshell:
+alias cm-repeat="xargs yes 2>/dev/null | head -n"
+alias spaste="paste -d ' '"
+function cm-pop { tail -n +2 $1 | sponge $1; }
+
+cat input | grep '|' > rules
+
+wc -l page_seq
+203 page_seq
+
+cat page_seq | head -n3
+21,84,35,92,58,33,29,79,56,24,95,28,19,46,37
+46,17,63,48,59,76,75,78,16,73,49,53,57,18,36
+56,55,76,19,37,36,16,86,57,85,18,48,78
+
+cat rules | grep '21'
+...
+
+# It seems like even though every number pair isn't represented as a rule
+# All the number pairs represented by sequences might be specified as a rule
+wc -l uniqnums
+49 uniqnums
+
+# The brute force for this seems pretty brutal
+# I guess the brute force for removing each seq that breaks a rule and going down the rule list is probably not terribly slow
+cp page_seq part1_page_seq
+cat rules | sed 's/|/ /' > rulesawk
+# why can't paste repeat lines when it runs out...
+# alias time (cm-repeat)
+
+
+# iterate this line by simply running it multiple times, use a macro to auto repeat the binding
+SQN=`wc -l <part1_page_seq`; head -n1 rulesawk | cm-repeat $SQN | spaste - part1_page_seq | awk '{p=$2".*"$1}$3!~p{print $3}' | sponge part1_page_seq; tail -n +2 rulesawk | sponge rulesawk
+wc -l rulesawk
+
+wc -l part1_page_seq
+86 part1_page_seq
+
+# CHECKING
+# I have the number of correct seq, I need to sum the middle page nums for the answer but I want to check that one of these actually follows the rules first
+head -n1 part1_page_seq
+21,84,35,92,58,33,29,79,56,24,95,28,19,46,37
+grep -E '21|84|35|92|58|33|29|79|56|24|95|28|19|46|37' rules > tmprules
+#
+cat tmprules | grep '|21' | cut -d '|' -f1 | tr '\n' '|'
+85|93|18|13|53|63|42|75|78|11|31|73|48|25|16|39|17|57|82|44|59|86|98|45
+grep -E '85|93|18|13|53|63|42|75|78|11|31|73|48|25|16|39|17|57|82|44|59|86|98|45' <(echo "21,84,35,92,58,33,29,79,56,24,95,28,19,46,37")
+# no output, so no broken rules wrt 21 at the start
+cat tmprules | grep '37|' | cut -d '|' -f2 | tr '\n' '|'
+grep -E '59|75|86|39|63|57|93|44|11|42|85|18|16|53|36|48|31|17|73|98|45|13|82|78' <(echo "21,84,35,92,58,33,29,79,56,24,95,28,19,46,37")
+# no broken rules wrt 37 at the end
+# reduce further
+cut -d '|' -f1 tmprules | paste tmprules - | awk '$2 ~ /21|84|35|92|58|33|29|79|56|24|95|28|19|46|37/{print $1}' | sponge tmprules
+cut -d '|' -f2 tmprules | paste tmprules - | awk '$2 ~ /21|84|35|92|58|33|29|79|56|24|95|28|19|46|37/{print $1}' | sponge tmprules
+# semi manually verify the rest of the rules
+21,84,35,92,58,33,29,79,56,24,95,28,19,46,37
+cat tmprules | grep -Ev '^(21|84|35|92|58|33|29)' | sponge tmprules
+cat tmprules | grep -Ev '^(79|56|24|95)' | sponge tmprules
+cat tmprules | grep '46' | sort
+# ok I'm satisfied
+# DONE CHECKING
+
+# printing the page number in the middle of the seq, awk GOAT
+awk -F',' '{print $((NF+1)/2)}' part1_page_seq | numsum
+4609
+GOLD STAR GET
+
+
+
+##### PART TWO
+
+i need the inverse of the already correct sequences, I think I can do this with parallel and awk
+ok, yes but, better idea, dont try deleting them in parallel, just list the line numbers of already good seq first
+###
+seq 1 203 | paste - page_seq > numbered_seq
+parallel -k --arg-file part1_page_seq "awk '\$2~/^{}$/{print \$1'}' numbered_seq" > part1_numbers
+
+# keep only the nongood page sequences
+cat part1_numbers | tr '\n' '|' | sed 's/^/^(/; s/.$/)$/' > p1_nums_regex
+# big chonky regex but it works, using `s to set the regex var to keep it readable lol
+cat numbered_seq | awk -v p=`cat p1_nums_regex` '$1!~p{print $2}' > nongood_seq
+
+
+# Now I need to fix the orderings based on the rules
+# A couple loops would obviously come in handy here lol, let's see what I can do without them though
+# only 117 to process so speed isn't much of an issue
+cp nongood_seq to_process
+
+# my process is to fetch all numbers which need to go before a certain number
+# if the rules are comprehensive as seems to be the case, then filtering those
+# numbers to only the ones present on this line and counting them gives me a
+# positional index!
+
+# first for just the first one
+head -n1 to_process | tr ',' '|' | sed 's/^/(/; s/$/)/' > filter
+head -n1 to_process | tr ',' '\n' > list
+parallel -k --argfile list "grep '|{}' rules | cut -d '|' -f1 | grep -Ef filter | wc -l" | paste - list | sort -g | cut -f2 
+...
+
+# this works, since I can verify my solution by checking the answer, first try ignoring the whole list and printing just the middle page num
+# this will get the potential answer but not save the fixed lists
+parallel -k --argfile list "grep '|{}' rules | cut -d '|' -f1 | grep -Ef filter | wc -l" | paste - list | awk -v l=`cat list| wc -l` '$1==(l-1)/2{print $2}'
+# works, now I need to make an iterative version
+
+cp nongood_seq to_process; echo -n "" > part2_m
+cat to_process | tr ',' '|' | sed 's/^/(/; s/$/)/' > fs
+echo -n "grep '|{}' rules | cut -d '|' -f1 | grep -Ef f | wc -l" > parcmd
+# adding function cm-pop to .bash_vimshell
+
+# 200 characters is a one-liner right?
+head -n1 fs > f; head -n1 to_process | tr ',' '\n' > list; parallel -k -a list $(cat parcmd) | paste - list | awk -v l=`cat list| wc -l` '$1==(l-1)/2{print $2}' >> part2_m; cm-pop to_process; cm-pop fs
+
+numsum part2_m
+5723
+GOLD STAR GET
+
+aw yeah first try

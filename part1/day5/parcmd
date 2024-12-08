@@ -1,0 +1,1 @@
+grep '|{}' rules | cut -d '|' -f1 | grep -Ef f | wc -l
