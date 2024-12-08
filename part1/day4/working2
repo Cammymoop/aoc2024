@@ -1,10 +1,126 @@
 # vim: ft=bash
 
+
+# I'm matching all the cases that look like this M.M
+#                                                .A.
+#                                                S.S
+# using reversed lines to pick up the upside down type,
+# and using the transposed version to pick up the rotated type
+
 # linearize to a single line
-cat input | tac input | { tr -d '\n'; echo; } > x1
-cat transposed | tac transposed | { tr -d '\n'; echo; } > x2
+# note that adding the reversed lines cannot make extra valid patterns since the pattern isn't vertically symmetric
+tac input | cat input - | { tr -d '\n'; echo; } > x1
+tac transposed | cat transposed - | { tr -d '\n'; echo; } > x2
 
-cat x1 | grep -bo 'M' | sed 's/:.*//' > scratch; cat scratch | interval | paste scratch - | awk '$2==2 && $1%140 < 139'
+tac input | cat input - > xx1
+tac transposed | cat transposed - > xx2
 
-# This sequence should find any 1, 1 intervals and update the first interval to a 2
-sed 's/11/F1/; s/1[1F]/FF/; s/F/2/'
+# All positions of the first in a pair of Ms separated by one character
+# --Fix-- UGHH interval just ignores 0, what an asshole, add one to positions before passing to interval---- 
+cat x1 | grep -bo 'M' | sed 's/:.*//' > scratch; awk '{print $1+1}' scratch | interval | paste scratch - > scratch2
+# This sequence should find any 1, 1 intervals and update the first interval to a 2, and it should work for overlapping matches
+cat scratch2 | cut -f2 | tr '\n' ':' | sed -E 's/\b1:1\b/F:1/g; s/\b1:([1F])\b/F:\1/g; s/F/2/g' | tr ':' '\n' | paste scratch2 - | cut -f1,3 > scratch3
+cat scratch3 | awk '$2==2 && $1%140 < 138{print $1}' > m_pos_1
+
+# Now the same for pairs of S, but checking for the edge condition (column 138/139) isn't strictly necessary here
+cat x1 | grep -bo 'S' | sed 's/:.*//' > scratch; awk '{print $1+1}' scratch | interval | paste scratch - > scratch2
+cat scratch2 | cut -f2 | tr '\n' ':' | sed -E 's/\b1:1\b/F:1/g; s/\b1:([1F])\b/F:\1/g; s/F/2/g' | tr ':' '\n' | paste scratch2 - | cut -f1,3 > scratch3
+cat scratch3 | awk '$2==2 && $1%140 < 138{print $1}' > s_pos_1
+
+# As are much simpler
+cat x1 | grep -bo 'A' | sed 's/:.*//' > a_pos_1 
+
+# One line down = +140
+# S pair position +141 = A position, +280 = S pair position
+cat m_pos_1 | parallel -q awk '$1=={1}+141{print {1}}' a_pos_1 > ma_pos_1
+cat ma_pos_1 | parallel -q awk '$1=={1}+280{print {1}}' s_pos_1 > mas_pos_1
+
+###############################
+#now repeat for x2 (transposed)
+cat x2 | grep -bo 'M' | sed 's/:.*//' > scratch; awk '{print $1+1}' scratch | interval | paste scratch - > scratch2
+cat scratch2 | cut -f2 | tr '\n' ':' | sed -E 's/\b1:1\b/F:1/g; s/\b1:([1F])\b/F:\1/g; s/F/2/g' | tr ':' '\n' | paste scratch2 - | cut -f1,3 > scratch3
+cat scratch3 | awk '$2==2 && $1%140 < 138{print $1}' > m_pos_2
+
+cat x2 | grep -bo 'S' | sed 's/:.*//' > scratch; awk '{print $1+1}' scratch | interval | paste scratch - > scratch2
+cat scratch2 | cut -f2 | tr '\n' ':' | sed -E 's/\b1:1\b/F:1/g; s/\b1:([1F])\b/F:\1/g; s/F/2/g' | tr ':' '\n' | paste scratch2 - | cut -f1,3 > scratch3
+cat scratch3 | awk '$2==2 && $1%140 < 138{print $1}' > s_pos_2
+
+cat x2 | grep -bo 'A' | sed 's/:.*//' > a_pos_2 
+
+cat m_pos_2 | parallel -q awk '$1=={1}+141{print {1}}' a_pos_2 > ma_pos_2
+cat ma_pos_2 | parallel -q awk '$1=={1}+280{print {1}}' s_pos_2 > mas_pos_2
+
+
+
+wc -l mas_pos_1
+1010 mas_pos_1
+542 mas_pos_1
+625 mas_pos_1
+517 mas_pos_1
+wc -l mas_pos_2
+952 mas_pos_2
+466 mas_pos_2
+476 mas_pos_2
+536 mas_pos_2
+268 mas_pos_2
+
+cat mas_pos_1 mas_pos_2 | wc -l
+781
+TOO LOW
+
+# oh forgot to use the transposed + tac transposed, x2 was just transposed at first
+cat mas_pos_1 mas_pos_2 | wc -l
+785
+# only 4 more??
+wc -c x2
+# ok forgot the - in tac - transposed
+
+cat mas_pos_1 mas_pos_2 | wc -l
+1053
+NOOO STILL TOO LOW
+
+# first count was under counted, idk why, also was overcounting because 2nd in sed trio regex was putting too many Fs sometimes
+cat mas_pos_1 mas_pos_2 | wc -l
+1101
+# wrong and now it's not telling me high or low -_-
+#
+# I'm defnitely way undercounting...
+# I counted using vim search /M\ze.M[\nXMAS]\{139\}A[\nXMAS]\{139\}S.S
+1136+960
+2096
+Also not righ... wtf
+Oh, duh, I added the - to tac not to cat lmao
+
+# vim count
+1010+952
+1962
+# before I run this let me check if the command version aggrees lol
+# 1008, y it no work ;;
+# fixed interval lmaooooooooooooooooooo
+cat mas_pos_1 mas_pos_2 | wc -l
+1962
+# all aboard??
+# BRUH IT's NOT RIGHT? test input verified, this is just dumb
+
+
+cat scratch2 | tail -n4
+39191	2
+39195	2
+39197	
+39199	
+# OMGGG, interval fails on 0 at the start of the positions I'm so angy, it just ignores it lmoooo
+# And all my orientations have an M at the top left so every single one is wrong D;
+
+cat scratch2 | head -n4
+0	1
+1	2
+3	1
+4	1
+# fixed but y are you like this?? :>
+
+tac test_input | cat test_input - > xt1
+tac test_transposed | cat test_transposed - > xt2
+
+# vim count works for test input too ...
+# this is silly
+
