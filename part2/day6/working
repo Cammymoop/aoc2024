@@ -1,0 +1,78 @@
+# vim: ft=bash
+
+# This one is really much more suited to scripting isn't it, maybe I'll be a bit lax on the self-imposed rules for this day
+cp input proc1
+
+# lets write a script to make placing Xs easier
+# I think it will take as args: direction, xpos, ypos, distance
+# It should write Xs to proc1 and print out the new direction and coords in the same order it got them
+### script start
+X=$2
+Y=$3
+HORIZ=$(($1 % 2))
+SIGN=1
+if [ $1 -gt 1 ]; then SIGN=-1; fi
+
+for i in $(seq $4)
+do
+  vim -n -e +$Y "+ normal $X|rX" -c wq -f proc1 1>/dev/null
+  if [ $HORIZ -eq 0 ]; then X=$(($X+$SIGN)); else Y=$(($Y+$SIGN)); fi
+done
+if [ $HORIZ -eq 0 ]; then X=$(($X- $SIGN)); else Y=$(($Y- $SIGN)); fi
+
+echo "$((($1+1) % 4)) $X $Y";
+### script end
+did you know the the :w command in vim takes a range? you can easily write out parts of a file to another file
+#:'<,'>w mark.sh
+chmod +x mark.sh
+
+# vim ex mode seems to print and then erase lines, I just redirected its stdout
+
+
+# STARTING POSITION
+cat input | tr -d '\n' | grep -bo '\^' | sed 's/:.*/+1)%130/;s/^/(/' | bc
+92
+grep -n '\^' input | sed 's/:.*//'
+54
+
+# 0 facing right, 1 down, 2 left, 3 up
+echo "3 92 54" > status
+
+./mark.sh $(cat status) 42 | sponge status
+# marking works, checking for the next obstacle 
+
+# print a column
+cat proc1 | awk '{print substr($0, 92, 1)}'
+# print a row
+cat proc1 | awk 'NR==54'
+
+# find distance to first obstacle row index is direction
+cat proc1 | awk 'NR==YY' | sed -zE 's/([^\n])/\1\n/g; s/\n$//' | tail -n +XX | awk '/#/{print NR-1;exit}NR==131-XX{print NR;print "E"}'
+cat proc1 | awk '{print substr($0, XX, 1)}' | tail -n +YY | awk '/#/{print NR-1;exit}NR==131-YY{print NR;print "E"}'
+cat proc1 | awk 'NR==YY' | sed -zE 's/([^\n])/\1\n/g; s/\n$//' | tac - | tail -n XX | awk '/#/{print NR-1;exit}NR==XX{print NR;print "E"}'
+cat proc1 | awk '{print substr($0, XX, 1)}' | tac - | tail -n YY | awk '/#/{print NR-1;exit}NR==YY{print NR;print "E"}'
+#:w dircmd
+
+# set can set the numbered variables, very nice
+set -- $(cat status); awk -v d=$1 'NR-1==d' dircmd | sed "s/XX/$2/g; s/YY/$3/g" | bash > dist
+
+# put it all together???
+
+cp input proc1; echo "3 92 54" > status
+
+# this works but I don't handle the ending, updating dircmd to print something for the end
+# ok now I should be able to use a self looping macro to run this until the end
+set -- $(cat status); awk -v d=$1 'NR-1==d' dircmd | sed "s/XX/$2/g; s/YY/$3/g" | bash > dist; head -n1 dist | xargs ./mark.sh $(cat status) | sponge status; test $(wc -l <dist) -eq 1 && echo ". A"
+seq: missing operand
+Try 'seq --help' for more information.
+# I broke the end condition but I can just add the extra Xs, visually there should be 16 more
+
+grep -o X proc1 | wc -l
+5192
+5192+16= 5208
+GOLD STAR GET
+#wooo
+
+
+{ cat status; cat dist; cat proc1; }
+

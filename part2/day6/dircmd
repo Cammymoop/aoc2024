@@ -1,0 +1,4 @@
+cat proc1 | awk 'NR==YY' | sed -zE 's/([^\n])/\1\n/g; s/\n$//' | tail -n +XX | awk '/#/{print NR-1;exit}'
+cat proc1 | awk '{print substr($0, XX, 1)}' | tail -n +YY | awk '/#/{print NR-1;exit}'
+cat proc1 | awk 'NR==YY' | sed -zE 's/([^\n])/\1\n/g; s/\n$//' | tac - | tail -n XX | awk '/#/{print NR-1;exit}'
+cat proc1 | awk '{print substr($0, XX, 1)}' | tac - | tail -n YY | awk '/#/{print NR-1;exit}'
